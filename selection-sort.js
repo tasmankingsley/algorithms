@@ -1,6 +1,6 @@
 let array = [3, 2, 10, 435, 1, 40, 16, 18, 5, 20];
 
-function selectionSort(array) {
+function selection_sort(array) {
     for (let i = 0; i < array.length - 1; i++) {
         let j_min = i;
         for (let j = i + 1; j < array.length; j++) {
@@ -15,4 +15,4 @@ function selectionSort(array) {
     return array;
 }
 
-console.log(selectionSort(array));
+console.log(selection_sort(array));

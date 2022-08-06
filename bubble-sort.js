@@ -1,6 +1,6 @@
 let array = [3, 2, 10, 435, 1, 40, 16, 18, 5, 20];
 
-function bubbleSort(array) {
+function bubble_sort(array) {
     for (let i = 0; i < array.length; i++) {
         for (let j = 0; j < array.length - 1 - i; j++) {
             if (array[j] > array[j + 1]) {
@@ -11,4 +11,4 @@ function bubbleSort(array) {
     return array;
 }
 
-console.log(bubbleSort(array));
+console.log(bubble_sort(array));
